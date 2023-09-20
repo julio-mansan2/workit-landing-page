@@ -34,7 +34,7 @@
 @media (max-width: 500px) {
     .header {
         background-position: -500% center, right center;
-        margin-bottom: 50px;
+        margin-bottom: 3.125rem;
     }
 
     .header br {
@@ -43,7 +43,7 @@
 
     .hero img {
         width: 100%;
-        bottom: -50px;
+        bottom: -3.125rem;
     }
     
     .features {
@@ -60,7 +60,7 @@
 
     .founder article {
         left: 0;
-        top: -40px;
+        top: -2.5rem;
         text-align: center;
     }
 

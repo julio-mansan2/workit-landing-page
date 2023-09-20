@@ -14,19 +14,19 @@ body {
     background: url(../assets/images/bg-pattern-1.svg) -10% center no-repeat, url(../assets/images/bg-pattern-2.svg) center center no-repeat;
     background-color: var(--dark-purple);
     border-radius: 0 0 15% 15%;
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
 }
 
 .hero img {
     width: 60%;
     position: relative;
-    bottom: -150px;
+    bottom: -9.375rem;
 }
 
 .hero h1 {
     font: 400 3.5rem 'Fraunces', sans-serif;
     color: var(--white);
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 
 .hero h1 span {
@@ -37,13 +37,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 
 .header-menu a {
     font: 600 1rem 'Manrope', sans-serif;
     color: var(--white);
-    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
     border-bottom: 3px solid var(--neon-green);
     transition: 0.3s;
 }
@@ -62,7 +62,7 @@ body {
 
 .hero a,
 .founder a {
-    padding: 15px 30px;
+    padding: 0.9375rem 1.875rem;
     font: 600 1rem 'Manrope', sans-serif;
     color: var(--dark-purple);
     background: var(--neon-green);
@@ -86,20 +86,20 @@ body {
     grid-template-columns: repeat(3,1fr);
     justify-items: center;
     text-align: center;
-    gap: 50px;
+    gap: 3.125rem;
 }
 
 .features article {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 1.875rem;
 }
 
 .features article h3 {
     font: 500 1.25rem 'Fraunces', sans-serif;
     color: var(--dark-purple);
-    padding: 10px 15px;
+    padding: 0.625rem 0.9375rem;
     border: 1px solid var(--dark-purple);
     border-radius: 50%;
 }
@@ -107,7 +107,7 @@ body {
 .features article h2 {
     font: 600 1.8rem 'Fraunces', sans-serif;
     color: var(--dark-purple);
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 .features article p {
@@ -125,31 +125,31 @@ body {
 }
 
 .founder article {
-    padding: 40px;
+    padding: 2.5rem;
     height: fit-content;
     align-self: flex-end;
     position: relative;
-    left: -50px;
+    left: -3.125rem;
     background: var(--dark-purple) url(../assets/images/bg-pattern-3.svg) 100% 220% no-repeat;
 }
 
 .founder article h1 {
     font: 400 3rem 'Fraunces', sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     color: var(--white);
 }
 
 .founder p {
     font: 400 1rem 'Manrope', sans-serif;
     color: var(--white);
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 .footer {
     padding: 5%;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 3.125rem;
     justify-content: center;
     align-items: center;
     grid-area: footer;
@@ -157,7 +157,7 @@ body {
 
 .social-medias {
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .social-medias a {
