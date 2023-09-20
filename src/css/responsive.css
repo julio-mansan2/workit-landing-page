@@ -1,0 +1,82 @@
+@media (min-width: 500px) and (max-width: 900px) {
+    .header {
+        background-position: -10% center, right center;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+        padding: 5%;
+    }
+
+    .features article {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .founder {
+        position: relative;
+        padding: 5%;
+    }
+
+    .founder article h1 {
+        font-size: 1.5rem;
+    }
+
+    .founder p {
+        font-size: 0.8rem;
+    }
+
+    .founder a {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .header {
+        background-position: -500% center, right center;
+        margin-bottom: 50px;
+    }
+
+    .header br {
+        display: none;
+    }
+
+    .hero img {
+        width: 100%;
+        bottom: -50px;
+    }
+    
+    .features {
+        grid-template-columns: 1fr;
+        padding: 5%;
+    }
+
+    .founder {
+        position: relative;
+        padding: 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .founder article {
+        left: 0;
+        top: -40px;
+        text-align: center;
+    }
+
+    .founder img {
+        width: 100%;
+    }
+
+    .founder article h1 {
+        font-size: 1.5rem;
+    }
+
+    .founder p {
+        font-size: 0.8rem;
+    }
+
+    .founder a {
+        font-size: 0.8rem;
+    }
+}
