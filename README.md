@@ -39,7 +39,7 @@ Versão Mobile
 Versão Tablet
 ````
 
- <img src="./src/design/mobile-design.gif" alt="mobile-design">
+ <img src="./src/design/tablet-design.gif" alt="mobile-design">
 
 <br>
 
